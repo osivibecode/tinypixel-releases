@@ -68,12 +68,12 @@
 <body>
 <div class="container">
     <h1>🖼️ TinyPixel Privacy Policy</h1>
-    <p class="update-date">Effective Date: November 1, 2026</p>
+    <p class="update-date">Effective Date: November 3, 2026</p>
 
     <div class="callout">
         <strong>In short:</strong> TinyPixel collects no personal data and shows no ads. Your images
         and screenshots stay on your Mac. It goes online for one thing: a once-a-day check for a newer
-        version, which you can switch off.
+        version, which you can switch off, and the download of an update only if you choose to install it.
     </div>
 
     <h2>1. Overview</h2>
@@ -92,22 +92,23 @@
             a bookmark to the save folder you chose.</li>
         <li><strong>Last capture area:</strong> its position on screen, so Return can repeat it.</li>
         <li><strong>Tool settings:</strong> your last brush, colour and other tool options.</li>
-        <li><strong>Update check:</strong> when it last ran, and the last new version it told you
-            about.</li>
+        <li><strong>Update check:</strong> when it last ran, and the last update it offered
+            you.</li>
         <li><strong>Latest crash summary:</strong> described in section 4.</li>
     </ul>
 
     <h2>3. Update Checks</h2>
-    <p>About once a day, TinyPixel asks GitHub whether a newer version has been published, by
-       requesting the latest release from <code>api.github.com</code>. If there is one, it tells you
-       and offers to open the release page on <code>github.com</code> in your browser. TinyPixel
-       does not download or install anything itself.</p>
+    <p>About once a day, TinyPixel reads a signed update feed at <code>osivibecode.github.io</code> to
+       see whether a newer version has been published. If there is one, it tells you. When you choose
+       to install it, TinyPixel downloads the new version from <code>github.com</code>, checks its
+       signature, and installs it.</p>
     <ul>
-        <li><strong>What is sent:</strong> an ordinary web request, which names the app and its
-            version. No identifier, no system profile and nothing about your images is included.</li>
-        <li><strong>Who sees it:</strong> GitHub, which hosts the releases, receives your IP address
-            as it would for any web request. We do not receive or keep these logs. GitHub's use of
-            data is covered by the
+        <li><strong>What is sent:</strong> ordinary web requests, for the feed and, if you install an
+            update, for its download. They name the app and its version. No identifier, no system
+            profile and nothing about your images is included.</li>
+        <li><strong>Who sees it:</strong> GitHub, which hosts the feed and the releases, receives your IP
+            address as it would for any web request. We do not receive or keep these logs. GitHub's use
+            of data is covered by the
             <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub
             Privacy Statement</a>.</li>
         <li><strong>Turning it off:</strong> TinyPixel ▸ About ▸ Updates ▸ "Check for updates
@@ -138,7 +139,7 @@
 
     <h2>6. Third-Party Services</h2>
     <p>TinyPixel contains no advertising SDK, no analytics library and no third-party crash reporter.
-       The only outside service it contacts is GitHub, for the update check in section 3. If you email
+       The only outside services it contacts are GitHub and GitHub Pages, for the updates in section 3. If you email
        us, your email provider and ours handle that message.</p>
 
     <h2>7. Required Permissions</h2>
@@ -147,7 +148,7 @@
             screen. It is used only when you take a screenshot, and captures are not transmitted.</li>
         <li><strong>File access</strong> — TinyPixel runs inside the macOS App Sandbox and can reach
             only the files you open or save and the save folder you choose.</li>
-        <li><strong>Network</strong> — outgoing connections only, for the update check.</li>
+        <li><strong>Network</strong> — outgoing connections only, for the update check and, if you install an update, its download.</li>
         <li><strong>Start at login</strong> — optional, so the shortcuts are ready when you log in.
             Managed by macOS in System Settings ▸ General ▸ Login Items.</li>
     </ul>
