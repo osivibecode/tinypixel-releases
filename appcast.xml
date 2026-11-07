@@ -3,12 +3,12 @@
     <channel>
         <title>TinyPixel</title>
         <item>
-            <title>1.0.4</title>
-            <pubDate>Tue, 03 Nov 2026 23:40:34 -0700</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <title>1.0.5</title>
+            <pubDate>Fri, 06 Nov 2026 17:19:50 -0700</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/osivibecode/tinypixel-releases/releases/download/v1.0.4/TinyPixel.dmg" length="3110834" type="application/octet-stream" sparkle:edSignature="93DK5A/RHplqQIUtSLMQZc4lakT/9GptbzX4wsI0wD1ojQIS/IbCAnE3uXgIA3WlAuMd/flE4PtVNLGlEBkODg=="/>
+            <enclosure url="https://github.com/osivibecode/tinypixel-releases/releases/download/v1.0.5/TinyPixel.dmg" length="3062325" type="application/octet-stream" sparkle:edSignature="C2ZcHIvIH9qljSOxvogQVRGLxs5IpGOiS/ScYbjfBQOJOun+hjuDXiRZ0HqDvJ4WO/oYgkilo65fGbs9CfQqDQ=="/>
         </item>
     </channel>
 </rss>
